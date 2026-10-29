@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Classflow</title>
+  <meta name="color-scheme" content="light">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+  <div class="app">
+    <aside id="sb">
+      <div class="logo">
+        <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="#3b5bdb"></rect>
+          <path d="M8 22V13m6 9V8m6 14v-7" stroke="#fff" stroke-width="4" stroke-linecap="round"></path>
+        </svg>
+        Classflow
+      </div>
+      <nav class="nav" id="nav"></nav>
+    </aside>
+    <div class="main">
+      <div class="top">
+        <button class="b" id="menu" aria-label="Menu" data-act="menu">☰</button>
+        <h1 id="ttl"></h1>
+      </div>
+      <div class="flt" id="flt"></div>
+      <div id="view"></div>
+    </div>
+  </div>
+  <div class="modal" id="modal"></div>
+  <div id="tip"></div>
+  <div id="toast"></div>
+  <input type="file" id="file" accept=".csv,.xlsx,.xls" hidden>
+  <input type="file" id="ttfile" accept=".csv,.xlsx,.xls" hidden>
+  <script src="js/app.js"></script>
+</body>
+</html>

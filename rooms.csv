@@ -1,0 +1,25 @@
+Room,Building,RoomType,Capacity,Facilities
+A101,Building A,Seminar Room,30,Projector
+A102,Building A,Lecture Hall,30,Projector|AC
+A103,Building A,Lecture Hall,40,Projector
+A104,Building A,Seminar Room,40,Projector|AC
+A105,Building A,Lecture Hall,40,Projector
+A106,Building A,Lab,60,Projector|AC|Computers|Smart Board
+A107,Building A,Lecture Hall,60,Projector|Smart Board
+A108,Building A,Lecture Hall,60,Projector|AC|Smart Board
+B101,Building B,Lecture Hall,60,Projector|Smart Board
+B102,Building B,Lecture Hall,80,Projector|AC|Smart Board
+B103,Building B,Lecture Hall,80,Projector|Smart Board
+B104,Building B,Lab,80,Projector|AC|Computers|Smart Board
+B105,Building B,Lecture Hall,100,Projector|Smart Board
+B106,Building B,Lecture Hall,100,Projector|AC|Smart Board
+B107,Building B,Lecture Hall,120,Projector|Smart Board
+B108,Building B,Lecture Hall,120,Projector|AC|Smart Board
+C101,Building C,Lecture Hall,40,Projector
+C102,Building C,Lab,60,Projector|AC|Computers|Smart Board
+C103,Building C,Lecture Hall,60,Projector|Smart Board
+C104,Building C,Lecture Hall,80,Projector|AC|Smart Board
+C105,Building C,Lecture Hall,30,Projector
+C106,Building C,Lecture Hall,50,Projector|AC
+C107,Building C,Lecture Hall,70,Projector|Smart Board
+C108,Building C,Lab,90,Projector|AC|Computers|Smart Board

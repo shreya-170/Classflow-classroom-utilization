@@ -1,0 +1,3 @@
+Date,Hour,Room,Capacity,StudentsPresent,Department,Subject,Faculty,Class,Building,RoomType
+2026-09-01,9,A101,60,55,IT,DBMS,Prof A,IT-A,Building A,Lecture Hall
+2026-09-01,10,A101,60,20,IT,OS,Prof B,IT-A,Building A,Lecture Hall
